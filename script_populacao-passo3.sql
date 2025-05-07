@@ -44,10 +44,10 @@ INSERT INTO Propriedade (Nome, Endereco, TipoDeAluguel, NumeroDeQuartos, PrecoPo
 ('Casa de Campo', 'Estrada do Interior, 150 - Zona Rural, Campinas', 'Casa Inteira', 6, 700.00, '234.567.890-33', 5, 15, 30, 5, 250.00, '2025-08-15', '11:00', '14:30'),
 ('Loft Moderno', 'Rua da Liberdade, 999 - Centro, São Bernardo do Campo', 'Quarto Compartilhado', 2, 350.00, '678.901.234-55', 1, 4, 14, 2, 75.00, '2025-09-01', '12:00', '21:00'),
 ('Apartamento Luxo', 'Av. Nova, 500 - Centro, Florianópolis', 'Casa Inteira', 3, 450.00, '890.123.456-66', 2, 6, 30, 4, 120.00, '2025-09-10', '09:00', '19:00'),
-('Casa dos Lagos', 'Rua do Lago, 700 - Bairro Lago, Natal', 'Casa Inteira', 4, 750.00, '161.718.279-20', 3, 10, 7, 2, 180.00, '2025-09-15', '10:30', '16:30'),
-('Apartamento Térreo', 'Rua São Paulo, 800 - Bairro Paulista, Brasília', 'Estúdio', 2, 400.00, '172.829.384-21', 2, 5, 60, 5, 100.00, '2025-09-20', '09:30', '20:30'),
-('Casa do Jardim', 'Rua das Flores, 999 - Bairro Jardim, Goiânia', 'Casa Inteira', 3, 550.00, '183.930.495-22', 2, 7, 10, 3, 120.00, '2025-10-01', '11:30', '15:00'),
-('Residencial Paraíso', 'Av. das Palmeiras, 120 - Praia, Maceió', 'Quarto Compartilhado', 2, 450.00, '194.041.506-23', 2, 5, 14, 4, 130.00, '2025-10-15', '09:00', '17:30'),
+('Casa dos Lagos', 'Rua do Lago, 700 - Bairro Lago, Natal', 'Casa Inteira', 4, 750.00, '135.792.468-00', 3, 10, 7, 2, 180.00, '2025-09-15', '10:30', '16:30'),
+('Apartamento Térreo', 'Rua São Paulo, 800 - Bairro Paulista, Brasília', 'Estúdio', 2, 400.00, '246.813.579-01', 2, 5, 60, 5, 100.00, '2025-09-20', '09:30', '20:30'),
+('Casa do Jardim', 'Rua das Flores, 999 - Bairro Jardim, Goiânia', 'Casa Inteira', 3, 550.00, '369.258.147-22', 2, 7, 10, 3, 120.00, '2025-10-01', '11:30', '15:00'),
+('Residencial Paraíso', 'Av. das Palmeiras, 120 - Praia, Maceió', 'Quarto Compartilhado', 2, 450.00, '159.357.486-11', 2, 5, 14, 4, 130.00, '2025-10-15', '09:00', '17:30'),
 ('Chalet Encantado', 'Estrada do Vale, 250 - Bairro Serra, Vitória', 'Casa Inteira', 3, 650.00, '123.456.789-09', 2, 8, 7, 2, 150.00, '2025-11-01', '12:00', '14:00'),
 ('Pousada do Sol', 'Rua das Pedras, 400 - Centro Histórico, Ouro Preto', 'Casa Inteira', 5, 600.00, '123.456.789-09', 3, 10, 30, 6, 200.00, '2025-11-15', '10:00', '18:30'),
 ('Casa Azul', 'Rua do Horizonte, 500 - Bairro Azul, Teresina', 'Estúdio', 2, 300.00, '123.456.789-09', 1, 4, 10, 1, 80.00, '2025-12-01', '08:30', '22:30'),
@@ -57,6 +57,24 @@ INSERT INTO Propriedade (Nome, Endereco, TipoDeAluguel, NumeroDeQuartos, PrecoPo
 ('Casa do Lago', 'Av. das Águas, 900 - Lago Azul, Águas de Lindóia', 'Casa Inteira', 5, 850.00, '987.654.321-00', 3, 10, 14, 4, 180.00, '2025-11-25', '12:30', '14:45'),
 ('Apartamento Central', 'Rua 15, 305 - Centro, Santos', 'Estúdio', 2, 350.00, '987.654.321-00', 1, 3, 5, 2, 50.00, '2025-08-01', '11:00', '17:45'),
 ('Pousada Tropical', 'Rua do Sol, 80 - Praia do Sol, Balneário Camboriú', 'Casa Inteira', 3, 400.00, '987.654.321-00', 2, 6, 12, 3, 90.00, '2025-07-15', '08:15', '20:15');
+
+/*APENAS MAIS ENDEREÇOS E PROPRIEDADES, É IGUAL O DE CIMA*/
+INSERT INTO Propriedade (Nome, Endereco, TipoDeAluguel, NumeroDeQuartos, PrecoPorNoite, LocadorCPF, NumeroDeBanheiros, NumeroMaximoHospedes, NumeroMaximoNoites, NumeroMinimoNoites, TaxaLimpeza, DataDisponibilidade, HorarioEntrada, HorarioSaida) VALUES
+('Casa Jardim Paulista', 'Rua Bela Vista, 234 - Jardim Paulista, São Paulo', 'Casa Inteira', 3, 400.00, '123.456.789-09', 2, 6, 20, 3, 110.00, '2025-06-10', '10:00', '18:00'),
+('Studio Bela Cintra', 'Rua Bela Cintra, 345 - Consolação, São Paulo', 'Estúdio', 1, 280.00, '123.456.789-09', 1, 2, 15, 2, 50.00, '2025-07-01', '12:00', '20:00'),
+('Apartamento Luz e Sol', 'Rua do Carmo, 98 - Centro, São Paulo', 'Estúdio', 2, 350.00, '678.901.234-55', 1, 4, 25, 3, 90.00, '2025-06-20', '11:30', '19:30'),
+('Cobertura Paulista Luxo', 'Av. Paulista, 2001 - Bela Vista, São Paulo', 'Casa Inteira', 4, 950.00, '012.345.678-90', 3, 8, 14, 2, 200.00, '2025-06-25', '13:00', '21:00'),
+('Vista Atlântica', 'Rua do Farol, 123 - Beira Mar, Recife', 'Casa Inteira', 4, 780.00, '456.789.123-12', 3, 8, 14, 2, 160.00, '2025-08-12', '10:00', '18:30'),
+('Studio Boa Viagem', 'Av. Boa Viagem, 789 - Boa Viagem, Recife', 'Estúdio', 1, 320.00, '456.789.123-12', 1, 2, 20, 3, 70.00, '2025-07-10', '11:00', '17:00'),
+('Casa Alto do Mar', 'Rua Alto do Mar, 456 - Zona Sul, Recife', 'Casa Inteira', 5, 850.00, '987.654.321-00', 4, 10, 12, 2, 190.00, '2025-08-01', '09:00', '17:30'),
+('Casa do Sol Nascente', 'Rua Sol Nascente, 300 - Praia do Futuro, Fortaleza', 'Casa Inteira', 3, 580.00, '321.654.987-01', 2, 6, 10, 2, 130.00, '2025-07-20', '10:00', '18:00'),
+('Apartamento Jardim Tropical', 'Rua dos Coqueiros, 55 - Bairro Jardim, Fortaleza', 'Estúdio', 2, 320.00, '321.654.987-01', 1, 4, 15, 3, 85.00, '2025-08-10', '11:00', '20:00'),
+('Flat do Mar', 'Av. Oceano, 808 - Praia, Fortaleza', 'Quarto Individual', 1, 240.00, '741.852.963-00', 1, 2, 30, 5, 60.00, '2025-07-25', '12:30', '21:30'),
+('Apartamento Costa Sul', 'Rua das Gaivotas, 333 - Centro, Florianópolis', 'Estúdio', 2, 380.00, '890.123.456-66', 1, 4, 20, 2, 95.00, '2025-09-12', '10:30', '18:30'),
+('Casa da Ilha', 'Rua Ilha Bela, 112 - Lagoa, Florianópolis', 'Casa Inteira', 3, 650.00, '890.123.456-66', 2, 7, 14, 3, 140.00, '2025-09-25', '09:00', '16:00'),
+('Chalé Encantado II', 'Estrada do Vale, 260 - Bairro Serra, Vitória', 'Casa Inteira', 3, 670.00, '123.456.789-09', 2, 8, 10, 2, 150.00, '2025-11-10', '12:00', '14:00'),
+('Casa Mirante Serra', 'Rua das Nuvens, 188 - Bairro Serra, Vitória', 'Casa Inteira', 4, 720.00, '111.222.333-44', 3, 9, 12, 3, 170.00, '2025-11-20', '10:00', '16:30');
+
 
 INSERT INTO Quarto (PropriedadeEndereco, NumeroQuarto, NumeroCamas, BanheiroPrivativo) VALUES
 ('Rua das Palmeiras, 123 - Praia, São Paulo', 101, 2, TRUE),
@@ -95,7 +113,17 @@ INSERT INTO Reserva (NumeroReserva, DataCheckIn, DataCheckOut, DataReserva, Nume
 ('R0017', '2025-05-12', '2025-05-18', '2025-05-01', 3, 'Rua das Acácias, 210 - Centro, Porto Alegre', '161.718.279-20', 729.3, 7293, FALSE),
 ('R0018', '2025-04-25', '2025-05-01', '2025-04-12', 2, 'Rua do Sol, 505 - Bairro Jardim, Fortaleza', '987.654.321-00', 770.0, 7700, FALSE),
 ('R0019', '2025-05-05', '2025-05-13', '2025-04-30', 3, 'Rua do Lago, 700 - Bairro Lago, Natal', '890.123.456-66', 732.5, 7325, FALSE),
-('R0020', '2025-05-19', '2025-05-29', '2025-05-16', 1, 'Rua das Flores, 999 - Bairro Jardim, Goiânia', '678.901.234-55', 539.0, 5390, FALSE);
+('R0020', '2025-05-19', '2025-05-29', '2025-05-16', 1, 'Rua das Flores, 999 - Bairro Jardim, Goiânia', '678.901.234-55', 539.0, 5390, FALSE),
+('R0021', '2025-06-01', '2025-06-07', '2025-05-20', 2, 'Rua das Palmeiras, 123 - Praia, São Paulo', '012.345.678-90', 615.0, 6150, TRUE),
+('R0022', '2025-06-10', '2025-06-15', '2025-05-28', 3, 'Estrada do Vale, 250 - Bairro Serra, Vitória', '183.930.495-22', 527.5, 5275, TRUE),
+('R0023', '2025-06-05', '2025-06-12', '2025-05-27', 1, 'Rua do Horizonte, 500 - Bairro Azul, Teresina', '234.567.890-33', 472.0, 4720, TRUE),
+('R0024', '2025-06-03', '2025-06-09', '2025-05-25', 4, 'Rua do Sol, 850 - Bairro Sol, João Pessoa', '194.041.506-23', 568.0, 5680, TRUE),
+('R0025', '2025-06-08', '2025-06-15', '2025-05-29', 2, 'Av. Brasil, 456 - Centro, Rio de Janeiro', '161.718.279-20', 732.4, 7324, TRUE),
+('R0026', '2025-06-14', '2025-06-20', '2025-06-01', 5, 'Av. do Mar, 450 - Praia Azul, Porto Seguro', '456.789.123-12', 689.0, 6890, TRUE),
+('R0027', '2025-06-16', '2025-06-22', '2025-06-04', 3, 'Estrada das Pedras, 120 - Serra Verde, Campos do Jordão', '678.901.234-55', 598.8, 5988, TRUE),
+('R0028', '2025-06-18', '2025-06-24', '2025-06-05', 2, 'Av. das Águas, 900 - Lago Azul, Águas de Lindóia', '123.456.789-09', 555.6, 5556, TRUE),
+('R0029', '2025-06-20', '2025-06-26', '2025-06-06', 1, 'Rua 15, 305 - Centro, Santos', '987.654.321-00', 489.3, 4893, TRUE);
+
 
 INSERT INTO ContaBancaria (NumeroConta, LocadorCPF, Agencia, TipoConta) VALUES
 ('9876543210', '123.456.789-09', 1234, 'Corrente'),
@@ -109,10 +137,10 @@ INSERT INTO ContaBancaria (NumeroConta, LocadorCPF, Agencia, TipoConta) VALUES
 ('1098765432', '234.567.890-33', 1234, 'Corrente'),
 ('1987654321', '678.901.234-55', 4321, 'Poupança'),
 ('9876543220', '890.123.456-66', 5678, 'Corrente'),
-('8765432110', '161.718.279-20', 8765, 'Poupança'),
-('7654321100', '172.829.384-21', 1234, 'Corrente'),
-('5432109887', '183.930.495-22', 4321, 'Poupança'),
-('4321098777', '194.041.506-23', 5678, 'Corrente');
+('8765432110', '135.792.468-00', 8765, 'Poupança'),
+('7654321100', '246.813.579-01', 1234, 'Corrente'),
+('5432109887', '369.258.147-22', 4321, 'Poupança'),
+('4321098777', '159.357.486-11', 5678, 'Corrente');
 
 INSERT INTO Localizacao (PropriedadeEndereco, CEP, Numero, Cidade, Estado, Pais, Bairro, PontosDeInteresse) VALUES
 ('Rua das Palmeiras, 123 - Praia, São Paulo', '01000-000', 123, 'São Paulo', 'SP', 'Brasil', 'Praia', 'Parque Ibirapuera, Mercado Municipal'),
@@ -215,4 +243,3 @@ INSERT INTO Deposita (LocadorCPF, LocatarioCPF, Valor) VALUES
 ('369.258.147-22', '172.829.384-21', 3700),
 ('135.792.468-00', '183.930.495-22', 2960),
 ('234.567.890-33', '194.041.506-23', 1650);
-
